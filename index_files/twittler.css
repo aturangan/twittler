@@ -2,3 +2,7 @@ div {
     background-color: aliceblue
 }
 
+.link:hover {
+    font-weight: bold;
+}
+
