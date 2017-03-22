@@ -15,7 +15,7 @@ $(document).ready(function() {
         var user = tweetList[i].user;
         var date = tweetList[i].created_at;
 
-        var $tweet = $('<div class="tweet"><div class="title">' + date + user + '</div>' + tweet.message + '</div>');
+        var $tweet = $('<div class="tweet"><div class="title">' + '@' + '<span id="smallUser">' + user + '</span>' + ' ' + '<span class ="date">'+ date + '</span>' + '</div>' + tweet.message + '</div>');
 
         $tweet.prependTo($('#tweets').fadeIn());
 
