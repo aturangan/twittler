@@ -1,8 +1,38 @@
-div {
-    background-color: aliceblue
+body {
+    background-image:url('http://www.underconsideration.com/brandnew/archives/twitter_comparison.gif')
 }
 
+
+.tweet {
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.link {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 10px;
+    width: 220px;
+}
 .link:hover {
     font-weight: bold;
+}
+
+
+.tweet {
+    margin: 20px;
+}
+
+.date {
+    font-size: 10px;
+    font-style: italic;
+}
+
+#users {
+    font-size: 20px;
+}
+
+#smallUser {
+    font-size: 20px;
 }
 
